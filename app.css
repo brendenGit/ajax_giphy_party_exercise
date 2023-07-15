@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: rgb(248, 34, 214);
+    background: linear-gradient(45deg, rgba(248, 34, 214, 1) 21%, rgba(230, 0, 55, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+#giphySearch {
+    padding: 5px;
+    border-radius: 10px;
+    min-height: 2rem;
+    border: 1px solid black;
+}
+
+#removeGiphys {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #d50909;
+    border: 1px solid black;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    transition: all 250ms;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+#removeGiphys:hover,
+#removeGiphys:focus {
+    background-color: #d50909;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+#removeGiphys:hover {
+    transform: translateY(-1px);
+}
+
+#removeGiphys:active {
+    background-color: #d50909;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+#submitSearch {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    transition: all 250ms;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+#submitSearch:hover,
+#submitSearch:focus {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+#submitSearch:hover {
+    transform: translateY(-1px);
+}
+
+#submitSearch:active {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
